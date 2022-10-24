@@ -1,71 +1,71 @@
-* /*changes attemped to all types of tags*/{
-    box-sizing: border-box; 
-    padding: 0;
-    margin: 0;
+* {                                            /*changes attemped to all types of tags*/
+    box-sizing: border-box;                    /*The width and height properties includes content, padding and margin*/
+    padding: 0;                                /*Clear area around the content*/
+    margin: 0;                                 /*Clear area outside the border*/
 }
 
 body {
-    background-color: #d9dcd6; /*background-color of the page*/
+    background-color: #d9dcd6;               /*background-color of the page*/
 }
 
 .header {
     padding: 20px; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;      /*font-type*/
+    background-color: #2a607c;                                                                                /*background-color-for the header*/
+    color: #ffffff;                                                                                           /*text color for the header*/
 }
 
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block;                    /*showing all blokcs in inline model*/
+    font-size: 48px;                          /*font size for heading element h1*/
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6;                        /*chainging color on letters "seo" in word Horieson in the header section*/
 }
 
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;                        /*Clear area at the top of the content by 15px*/
+    margin-right: 20px;                       /*Clear area outside the border at the right side by 20px*/
+    float: right;                             /*Specifies how a box should be floated.*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Font types*/
     font-size: 20px;
 }
 
 .header nav ul {
-    list-style-type: none;
+    list-style-type: none;                    /*Used to construct the default contents of a list item’s marker*/
 }
 
-.header nav ul li {
+.header nav ul li {                          /*attached to the elements in navigation bar*/
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+a {                                          /*all links on this page will be white*/
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p {                                          /*all paragraphes on this page will have font size 16px*/
     font-size: 16px;
 }
 
-.hero { 
+.hero {                                      /*bacground picture in the body element*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg");   /*link to the image*/
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
+.float-left {                           /*changes attached to elements with class "float-left"*/
+    float: left;                        /*placing elements on the left side*/
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
+.float-right {                          /*changes attached to elements with class "float-left"*/
+    float: right;                       /*placing elements on the right side*/
     margin-left: 25px;
 }
 
